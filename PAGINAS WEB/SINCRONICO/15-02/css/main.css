@@ -1,0 +1,27 @@
+
+/* regla: selector, cuerpo */
+/* propiedades y su valores. */
+/* selector: indica a quien se le va aplicar el formato o regla */
+/* tipos selectores: universal, etiqueta, clase, id, ordenados por especificidad */
+*{
+    color: rgb(225, 19, 222);
+
+}
+/* colocar el nombre de la etiqueta */
+table{
+    color: rgb(164, 204, 20) !important;
+    background-color: rgb(32, 56, 92);
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-style: dotted;
+}
+/* clase */
+.tabla1{
+    background-color: red;
+}
+
+/* id */
+#apellido{
+
+    background-color: navajowhite;
+}
