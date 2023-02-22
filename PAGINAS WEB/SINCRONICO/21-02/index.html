@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+    <!-- get envia informacion por url, post la oculta en el DOM de la pagina -->
+    <form  method="get" action="js/mensaje.js">
+        <!-- maxlength readonly disable value required -->
+        <div>
+            <div class="input">
+                <label>Nombre:</label>
+                <input type="text" name="cedula" id="cedula" maxlength="50" 
+                placeholder="holaaaa" title="d">
+            </div>
+        </div>
+        <div>   
+            <div class="input">
+                <label>Constraseña:</label>
+                <input type="password" name="contrasena" id="contrasena">
+            </div>
+        </div>
+        <div>   
+            <div class="input">
+                <label>Correo:</label>
+                <input type="email" name="correo" id="correo">
+            </div>
+        </div>
+        <div>   
+            <div class="input">
+                <label>Telefono:</label>
+                <input type="tel" name="tel" id="tel">
+            </div>
+        </div>
+        <div>   
+            <div class="input">
+                <label>Color:</label>
+                <input type="color" name="tel" id="tel">
+            </div>
+        </div>
+        <div>   
+            <div class="input">
+                <label>Fecha Nacimiento:</label>
+                <input type="date" name="fechaNac" id="fechaNac">
+            </div>
+        </div>
+        <div>   
+            <div class="input">
+                <label>Hora Nacimiento:</label>
+                <input type="time" name="horaNac" id="horaNac">
+            </div>
+        </div>
+        <div>   
+            <div class="input">
+                <label>Escoja archivo:</label>
+                <input type="file" name="archivo" id="archivo">
+            </div>
+        </div>
+        <div>   
+            <div class="input">
+                <label>Rango Edad:</label>
+                <input type="range" name="rangoEdad" id="rangoEdad" min="15" max="50">
+            </div>
+        </div>
+        <div>   
+            <div class="input">
+                <label>Direccion URL:</label>
+                <input type="url" name="url" id="url">
+            </div>
+        </div>
+        <div>   
+            <div class="input">
+                <label>Toyota:</label>
+                <input type="radio" name="marcas" value="toyota">
+                <label>Nissan:</label>
+                <input type="radio" name="marcas" value="Nissan">
+                <label>BMW:</label>
+                <input type="radio" name="marcas" value="BMW">
+            </div>
+        </div>
+        <div>   
+            <div class="input">
+                <label>PIZZA:</label>
+                <input type="checkbox" name="comidas" value="pizza">
+                <label>HAMBURGEUSA:</label>
+                <input type="checkbox" name="comidas" value="hamburguesa">
+                <label>TACOS:</label>
+                <input type="checkbox" name="comidas" value="tacos">
+            </div>
+        </div>
+        <div>   
+            <div class="input">
+                <label>TALLAS:</label>
+                <select name="tallas" id="">
+                    <option value="s">Talla S</option>
+                    <option value="m">Talla M</option>
+                    <option value="l">Talla L</option>
+                    <option value="xl">Talla XL</option>
+                </select>             
+            </div>
+        </div>
+        <div>   
+            <div class="input">
+                <label>Dirección:</label>
+               
+                <textarea name="" id="" cols="30" rows="10">
+                </textarea>        
+            </div>
+        </div>
+
+
+        <div>   
+           <input type="hidden" name="campos" value="safdsfds">
+        </div>
+  
+    
+
+        <input type="submit" value="ENVIAR DATOS"> <input type="reset" value="Limpiar">
+    </form>
+    <script src="css/main.css"></script>
+</body>
+
+
+</html>
