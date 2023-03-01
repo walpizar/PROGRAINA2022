@@ -1,0 +1,21 @@
+<p>TIPO DE CAMBIO</p>
+<!-- interpolacion  -->
+<button mat-button color="primary">Primary</button>
+<button mat-flat-button color="warn">Warn</button>
+
+<button mat-icon-button color="primary" aria-label="Example icon button with a home icon">
+    <mat-icon>home</mat-icon>
+  </button>
+  <mat-card class="example-card">
+    <mat-card-header>
+      <mat-card-title-group>
+        <mat-card-title>Cambio Dolar</mat-card-title>
+
+        <img mat-card-sm-image src="https://phantom-marca-us.unidadeditorial.es/f5e47d5e965166f0204b0c53e8a66eda/resize/660/f/webp/assets/multimedia/imagenes/2022/03/16/16474480518563.jpg" >
+      </mat-card-title-group>
+    </mat-card-header>
+    <mat-card-content>
+        Compra: {{datoCambio.compra.valor}}
+        Venta: {{datoCambio.venta.valor}}
+    </mat-card-content>
+  </mat-card>
