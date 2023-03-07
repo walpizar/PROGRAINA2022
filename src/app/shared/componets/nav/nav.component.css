@@ -1,0 +1,10 @@
+.menu{
+
+    width: 100%;
+    height: 50px;
+    background-color: darkcyan;
+    
+}
+.menu>button{
+    margin-right: 150px;
+}
